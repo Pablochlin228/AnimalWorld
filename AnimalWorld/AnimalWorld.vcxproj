@@ -129,11 +129,13 @@
   <ItemGroup>
     <ClCompile Include="Animal.cpp" />
     <ClCompile Include="AnimalWorld.cpp" />
+    <ClCompile Include="Carnivore.cpp" />
     <ClCompile Include="Herbivore.cpp" />
     <ClCompile Include="Wildebeest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Animal.h" />
+    <ClInclude Include="Carnivore.h" />
     <ClInclude Include="Herbivore.h" />
     <ClInclude Include="Wildebeest.h" />
   </ItemGroup>

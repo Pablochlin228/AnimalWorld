@@ -27,6 +27,9 @@
     <ClCompile Include="Wildebeest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Carnivore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Animal.h">
@@ -36,6 +39,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Wildebeest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Carnivore.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

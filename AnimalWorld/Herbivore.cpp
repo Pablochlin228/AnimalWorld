@@ -44,3 +44,5 @@ void Herbivore::Init()
 		weight = 30;
 	}
 }
+
+

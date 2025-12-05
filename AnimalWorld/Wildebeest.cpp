@@ -14,6 +14,7 @@ void Wildebeest::Print()
 
 void Wildebeest::Init()
 {
+	cout << "===Enter information about wildebeest=== " << endl;
 	Herbivore::Init();
 }
 

@@ -1,13 +1,18 @@
 #include "Herbivore.h"
 
-Herbivore::Herbivore(string n, double w)
-{
-	weight = w;
-}
-
 void Herbivore::EatGrass()
 {
-	weight += 10;
+	if (isLife)
+	{
+		if (weight < 50)
+		{
+			weight += 10;
+		}
+	}
+	else
+	{
+		cout << "Animal is dead and cannot eat." << endl;
+	}
 }
 
 void Herbivore::Print()

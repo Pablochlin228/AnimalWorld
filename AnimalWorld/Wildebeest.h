@@ -6,7 +6,7 @@ using namespace std;
 class Wildebeest:public Herbivore
 {
 public:
-	Wildebeest() {}
+	Wildebeest() : Herbivore() {}
 	Wildebeest(string n, double w) : Herbivore(n,w) {}
 	void EatGrass();
 	void Print();

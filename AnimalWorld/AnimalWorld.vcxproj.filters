@@ -36,6 +36,18 @@
     <ClCompile Include="Continent.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Lion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wolf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Africa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NorthAmerica.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Animal.h">
@@ -54,6 +66,18 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Continent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wolf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Africa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NorthAmerica.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

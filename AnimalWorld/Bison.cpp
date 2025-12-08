@@ -1,10 +1,5 @@
 #include "Bison.h"
 
-Bison::Bison(string n, double w)
-{
-	isLife = true;
-}
-
 void Bison::EatGrass()
 {
 	Herbivore::EatGrass();
@@ -25,5 +20,5 @@ void Bison::Init()
 
 double Bison::GetWeight()
 {
-	Herbivore::GetWeight();
+	return Herbivore::GetWeight();
 }

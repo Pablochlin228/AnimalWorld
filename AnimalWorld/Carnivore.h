@@ -10,8 +10,8 @@ protected:
 	double power;
 public:
 	Carnivore() {}
-	Carnivore(string n, double p) :Animal(n) {};
-	void Eat(Herbivore* obj);
+	Carnivore(string n, double p) : Animal(n), power(p) {}
+	virtual void Eat(Herbivore* obj) = 0;
 	void Init();
 	void Print();
 };

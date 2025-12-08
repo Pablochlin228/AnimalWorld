@@ -12,9 +12,12 @@ protected:
 	vector<Carnivore*> northAmerica;
 public:
 	Continent() {}
-	virtual void AddHerbivores(Herbivore* obj);
-	virtual void AddCarnivore(Carnivore* obj);
+	virtual void AddHerbivores(Herbivore* obj) = 0;
+	virtual void AddCarnivore(Carnivore* obj) = 0;
 	virtual void PrintInfo() = 0;
-
+	void PrintHerbivore();
+	void PrintCarnivore();
+	void FeedAllHerbivores();
+	void HuntAllCarnivores();
 };
 

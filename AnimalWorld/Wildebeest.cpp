@@ -20,6 +20,6 @@ void Wildebeest::Init()
 
 double Wildebeest::GetWeight()
 {
-	Herbivore::GetWeight();
+	return Herbivore::GetWeight();
 }
 

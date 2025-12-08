@@ -9,8 +9,8 @@ protected:
 	double weight;
 	bool isLife;
 public:
-	Herbivore() {}
-	Herbivore(string n, double w) :isLife(true), Animal(n) {};
+	Herbivore() : Animal(), weight(0), isLife(true) {}
+	Herbivore(string n, double w) : Animal(n), weight(w), isLife(true) {}
 	void EatGrass();
 	void Print();
 	void Init();

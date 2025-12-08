@@ -6,7 +6,7 @@ using namespace std;
 class Bison :public Herbivore
 {
 public:
-	Bison() {}
+	Bison() : Herbivore() {}
 	Bison(string n, double w) : Herbivore(n, w) {};
 	void EatGrass();
 	void Print();

@@ -1,22 +1,5 @@
 #include "Carnivore.h"
 
-Carnivore::Carnivore(string n, double p)
-{
-	power = p;
-}
-
-void Carnivore::Eat(Herbivore* obj)
-{
-	if (power > obj->GetWeight())
-	{
-		power += 10;
-	}
-	else
-	{
-		power -= 10;
-	}
-}
-
 void Carnivore::Init()
 {
 	int check;
